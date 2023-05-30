@@ -28,7 +28,15 @@ p {
   --color1: #0771b9;
   --color2: #5bc5f3;
 }
+/*  back to top start  */
+.back_to_top{
+  position: fixed;
+  left:15px;
+  bottom: 15px;
+  display: none;
 
+}
+/*  back to top end  */
 .welcome_part {
   background: var(--color1);
 }
@@ -41,11 +49,35 @@ p {
 }
 
 /* Menubar Start */
-/* .navbar {
-  padding: 20px 0;
-} */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+} 
 .nav-link:hover {
   color: var(--color1);
+}
+/* js class bg_scroll */
+.bg-scroll{
+  background: var(--color1);
+  transition: 0.4s;
+  z-index: 2;
+  
+}
+.bg-scroll .logo-white{
+  display: block !important;
+  
+}
+.bg-scroll .logo-dark{
+  display: none ;
+  
+}
+.bg-scroll ul li a{
+  color:#fff
+}
+.bg-scroll ul li a:hover{
+  color:#fff
 }
 /* Menubar End */
 
@@ -246,6 +278,9 @@ p {
 /* Team Part End */
 
 /* Testimonial Part Start */
+.testi_part{
+  z-index: 0;
+}
 .testi_con {
   background: #f1f1f1;
   padding: 20px;
