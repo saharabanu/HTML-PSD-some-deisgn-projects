@@ -1,0 +1,144 @@
+/* Default styles */
+
+/* Your existing CSS code here */
+
+/* Responsive styles for 567px and below */
+@media (max-width: 567px) {
+    .header {
+      padding: 30px 15px 0;
+    }
+  
+    .nav_main h2 {
+      font-size: 24px;
+    }
+  
+    .nav_main ul li a {
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    .hero-content {
+      padding-left: 20px;
+    }
+  
+    .hero-img-div {
+      padding-left: 0;
+    }
+  }
+  
+  /* Responsive styles for 768px and below */
+  @media (max-width: 768px) {
+    .header {
+      padding: 30px 15px 0;
+    }
+  
+    .nav_main h2 {
+      font-size: 24px;
+    }
+  
+    .nav_main ul li a {
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    .hero-content {
+      padding-left: 20px;
+    }
+  
+    .hero-img-div {
+      padding-left: 0;
+    }
+  
+    .hero-img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive styles for 992px and below */
+  @media (max-width: 992px) {
+    .header {
+      padding: 30px 15px 0;
+    }
+  
+    .nav_main h2 {
+      font-size: 24px;
+    }
+  
+    .nav_main ul li a {
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    .hero-content {
+      padding-left: 20px;
+    }
+  
+    .hero-img-div {
+      padding-left: 0;
+    }
+  
+    .hero-img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive styles for 1200px and below */
+  @media (max-width: 1200px) {
+    .header {
+      padding: 30px 15px 0;
+    }
+  
+    .nav_main h2 {
+      font-size: 24px;
+    }
+  
+    .nav_main ul li a {
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    .hero-content {
+      padding-left: 20px;
+    }
+  
+    .hero-img-div {
+      padding-left: 0;
+    }
+  
+    .hero-img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive styles for 1400px and below */
+  @media (max-width: 1400px) {
+    .header {
+      padding: 30px 15px 0;
+    }
+  
+    .nav_main h2 {
+      font-size: 24px;
+    }
+  
+    .nav_main ul li a {
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    .hero-content {
+      padding-left: 20px;
+    }
+  
+    .hero-img-div {
+      padding-left: 0;
+    }
+  
+    .hero-img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  
