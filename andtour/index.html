@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
   <!-- custom css link -->
 
@@ -62,7 +64,7 @@
           <div>
             <a href="#"><img src="./assets/images/logo.png" alt="logo"></a>
           </div>
-          <div class="menu">
+          <div class="menu" id="navbarList">
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">Categories</a></li>
@@ -79,7 +81,7 @@
               <a href="#">Become a partner</a>
             
           </div>
-          <i class="fa-solid fa-bars toggle-icon"></i>
+          <i class="fa-solid fa-bars toggle-icon" id="navbarToggle"></i>
         </div>
 
 
@@ -620,9 +622,10 @@
 
 
 
-        <div class="promotional_tour-part">
-          <div class="theme_common_box_two img_hover">
-            <div class="theme_two_box_img">
+       <div class=" swiper1 mySwiper1">
+        <div class="promotional_tour-part swiper-wrapper">
+          <div class="theme_common_box_two img_hover swiper-slide">
+            <div class="theme_two_box_img ">
               <a href="hotel-details.html"><img src="./assets/images/hotel1.png" alt="img"></a>
               <p><i class="fas fa-map-marker-alt"></i>New beach, Thailand</p>
             </div>
@@ -634,7 +637,7 @@
             </div>
           </div>
 
-          <div class="theme_common_box_two img_hover">
+          <div class="theme_common_box_two img_hover swiper-slide">
             <div class="theme_two_box_img">
               <a href="hotel-details.html"><img src="./assets/images/hotel2.png" alt="img"></a>
               <p><i class="fas fa-map-marker-alt"></i>Indonesia</p>
@@ -649,7 +652,7 @@
               <h3>$99.00 <span>Price starts from</span></h3>
             </div>
           </div>
-          <div class="theme_common_box_two img_hover">
+          <div class="theme_common_box_two img_hover swiper-slide">
             <div class="theme_two_box_img">
               <a href="hotel-details.html"><img src="./assets/images/hotel3.png" alt="img"></a>
               <p><i class="fas fa-map-marker-alt"></i>Kualalampur</p>
@@ -661,7 +664,7 @@
               <h3>$99.00 <span>Price starts from</span></h3>
             </div>
           </div>
-          <div class="theme_common_box_two img_hover">
+          <div class="theme_common_box_two img_hover swiper-slide">
             <div class="theme_two_box_img">
               <a href="hotel-details.html"><img src="./assets/images/hotel4.png" alt="img"></a>
               <p><i class="fas fa-map-marker-alt"></i>Mariana island</p>
@@ -676,7 +679,7 @@
               <h3>$99.00 <span>Price starts from</span></h3>
             </div>
           </div>
-          <div class="theme_common_box_two img_hover">
+          <div class="theme_common_box_two img_hover swiper-slide">
             <div class="theme_two_box_img">
               <a href="hotel-details.html"><img src="./assets/images/hotel6.png" alt="img"></a>
               <p><i class="fas fa-map-marker-alt"></i>Beach view</p>
@@ -688,7 +691,7 @@
               <h3>$99.00 <span>Price starts from</span></h3>
             </div>
           </div>
-          <div class="theme_common_box_two img_hover">
+          <div class="theme_common_box_two img_hover swiper-slide">
             <div class="theme_two_box_img">
               <a href="hotel-details.html"><img src="./assets/images/hotel7.png" alt="img"></a>
               <p><i class="fas fa-map-marker-alt"></i>Long island</p>
@@ -701,6 +704,8 @@
             </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
+       </div>
 
 
       </div>
@@ -923,24 +928,24 @@
           <h2>Our partners</h2>
         </div>
         <div class="">
-          <div class="col-lg-12">
-            <div class="partner_slider_area owl-theme owl-carousel partner-part">
-              <div class="partner_logo">
+          <div class="partner-swiper swiper mySwiper">
+            <div class="partner_slider_area owl-theme owl-carousel partner-part swiper-wrapper">
+              <div class="partner_logo swiper-slide">
                 <a href="#!"><img src="./assets/images/partner1.png" alt="logo"></a>
               </div>
-              <div class="partner_logo">
+              <div class="partner_logo swiper-slide">
                 <a href="#!"><img src="./assets/images/partner2.png" alt="logo"></a>
               </div>
-              <div class="partner_logo">
+              <div class="partner_logo swiper-slide">
                 <a href="#!"><img src="./assets/images/partner3.png" alt="logo"></a>
               </div>
-              <div class="partner_logo">
+              <div class="partner_logo swiper-slide">
                 <a href="#!"><img src="./assets/images/partner4.png" alt="logo"></a>
               </div>
-              <div class="partner_logo">
+              <div class="partner_logo swiper-slide">
                 <a href="#!"><img src="./assets/images/partner5.png" alt="logo"></a>
               </div>
-              <div class="partner_logo">
+              <div class="partner_logo swiper-slide">
                 <a href="#!"><img src="./assets/images/partner6.png" alt="logo"></a>
               </div>
 
@@ -982,6 +987,9 @@
         </div>
       </div>
     </section>
+
+
+    
   </main>
 
  
@@ -1096,6 +1104,9 @@
     </div>
 
   </footer>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

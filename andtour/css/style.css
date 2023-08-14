@@ -17,6 +17,13 @@ a{
 ul li{
     list-style: none;
 }
+.menu.active {
+    display: block;
+   
+    
+    
+
+  }
 
 .container{
     max-width: 1200px;
@@ -1143,3 +1150,4 @@ footer{
 }
 /* bottom part :end */
 /* footer end */
+
