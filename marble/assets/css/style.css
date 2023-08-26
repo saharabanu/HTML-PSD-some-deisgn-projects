@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Roboto Slab', serif; */
+
+}
+
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px
+    
+}
+
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a{
+    color: #4e4e4e;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0px 5px;
+    transition: 0.4s all ease-in-out;
+}
+.nav ul li a:hover{
+    color: #1abb9c;
+}
+.nav  h2{
+    color: #4e4e4e;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/* banner  start*/
+
+.banner{
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    font-family: 'Roboto Slab', serif;
+}
+.banner-content {
+ text-align: center;
+ padding-top: 5%;
+ color: #fff
+}
+.banner-content h3{
+ font-size: 30px;
+}
+.banner-content h5{
+ font-size: 18px;
+ color: #a8a8a8;
+ margin-top: -10px;
+}
+.banner-content button{
+    cursor: pointer;
+    background-color: #3f8dbf;
+    border: 0;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 13px 25px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+ 
+}
+/* banner  end*/
