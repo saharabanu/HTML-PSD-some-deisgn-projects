@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+
+/* navbar start   */
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30, 0.7),rgba(4,9,30, 0.7)),url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 2% 6%;
+}
+nav img{
+    width:150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+}
+.nav-links ul li a{
+  text-decoration: none;
+  color: white;
+  font-size:13px;
+}
+.nav-links ul li::after{
+    content: "";
+    width:0%;
+    height:2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+    
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.text-box h1{
+   font-size: 62px;
+}
+.text-box p{
+   font-size: 14px;
+   color:#fff;
+   padding: 10px 0 40px;
+
+}
+.hero-btn{
+ text-decoration: none ;
+ color:#fff;
+ font-size: 13px;
+ border: 1px solid #fff;
+ background: transparent;
+ position: relative;
+ padding: 12px 13px;
+ cursor: pointer;
+ display: inline-block;
+}
+.hero-btn:hover{
+ border: 1px solid #f44366;
+ background: #f44366;
+transition: 1s;
+ 
+}
+nav .fa{
+    display: none;
+}
+@media(max-width: 700px) {
+    .text-box h1{
+        font-size: 20px;
+     }
+     .nav-links ul li{
+        display: block;
+     }
+     .nav-links{
+        position: absolute;
+        background: #f44336;
+        width:200px;
+        height:100vh;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        
+    }
+    nav .fa{
+        display: block;
+        color:#fff;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    /* .nav-links ul li{
+        
+        padding: 0px 0px;
+    } */
+    .nav-links ul {
+        padding: 30px;
+    } 
+}
