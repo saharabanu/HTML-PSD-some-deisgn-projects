@@ -1,0 +1,247 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* header section style tart   */
+.header-section{
+    background:url('../images/Image_1.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position:center ;
+    width: 100%;
+    height:650px;
+}
+.header-section .header-container{
+    color:white;
+    width:50%;
+    padding:15% 6%
+}
+.header-section .header-container h1{
+    font-size:40px;
+}
+.header-section .header-container p{
+    font-size: 16px;
+    line-height: 25px;
+    padding:20px 0;
+}
+.btn{
+    margin-top:20px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color:#f3a857 ;
+    padding: 14px 30px ;
+    font-weight: 900;
+}
+/* header  section style end */
+
+/* about section style start  */
+    .about-section{
+        width:100%;
+        height:600px;
+        
+    }
+    .about-section .about-our{
+        width: 50%;
+        height: 600px;
+        background-color: #272624;
+        float: left;
+    }
+    
+.about-section .about-our .about-our-text{
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 35%;
+    }
+    .about-section .about-our .about-our-text h2{
+        font-size: 40px;
+        font-weight: 500;
+    
+    }
+    
+    .about-section .about-our .about-our-text p{
+        line-height: 25px;
+        padding: 20px 0;
+    
+    }
+    
+    
+    .about-section .reg-open{
+        width: 50%;
+        height: 600px;
+        background-color: #1E1D1B;
+        float: right;
+    }
+    
+    
+    .about-section .reg-open .reg-open-text{
+        text-align: center;
+        color: white;
+        width: 80%;
+        margin: auto;
+        margin-top: 35%;
+    }
+    
+    .about-section .reg-open .reg-open-text h2{
+        font-size: 40px;
+        font-weight: 500;
+    
+    }
+    
+    .about-section .reg-open .reg-open-text p{
+        line-height: 25px;
+        padding: 20px 0;
+    
+    }
+
+/* about section style end  */
+
+/* workshop section style start  */
+.workshop-section{
+    width: 100%;
+    height: 600px;
+    
+}
+.workshop-section .workshop-text{
+    width: 30%;
+    height: 600px;
+    float: left;
+    background-color:#EEE9E5;
+}
+.workshop-section .workshop-text .workshop-text-area{
+    width: 100%;
+    padding: 40% 5% 0 18%;
+    
+   }
+   .workshop-section .workshop-text .workshop-text-area h2{
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.workshop-section .workshop-text .workshop-text-area p{
+    line-height: 25px;
+    padding: 20px 0;
+
+}
+.workshop-section .workshop-img{
+    width: 70%;
+    height: 600px;
+    float: right;
+}
+.workshop-section .workshop-img img{
+    width: 100%;
+    height: 600px;
+    
+    }
+
+/* workshop section style end */
+
+/* member section style start  */
+
+.workshop-section .right{
+    float:right;
+    background-color:#272624;
+    color: white;
+}
+
+.workshop-section .workshop-img .left{
+    float:left;
+}
+
+.workshop-section .workshop-text .studio-padding{
+    width: 100%;
+    padding: 40% 14% 0 12%;
+    
+   }
+
+/* member section style end  */
+
+
+/* student section start */
+.student-section{
+    background-image: url('../images/Image_4.png');
+    width: 100%;
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.student-section .student-section-text{
+width: 40%;
+height: 470px;
+background-color: white;
+padding: 7% 5% 0 5%;
+position: absolute;
+margin-top: 18%;
+margin-left: 10%;
+
+}
+
+.student-section .student-section-text h2{
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.student-section .student-section-text p{
+    line-height: 25px;
+    padding: 20px 100px 0 0;
+}
+.student-section .student-section-text .btn h4{
+    font-size: 25px;
+}
+
+/* student section end */
+
+
+.student-section-bottom{
+    height: 60px;
+    background-color: black;
+    border-bottom:1px solid rgb(61, 61, 61) ;
+}
+
+
+/* subscribe section start */
+.subscribe-section{
+    height: 400px;
+    background-color: black;
+}
+
+.subscribe-section .subscribe-section-text{
+width: 50%;
+color: white;
+text-align: center;
+margin: auto;
+padding-top: 6%;
+}
+
+.subscribe-section .subscribe-section-text h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.subscribe-section .subscribe-section-text p{
+    line-height: 25px;
+    padding: 20px 0 0 0;
+}
+
+.btn form {
+    margin-top: 50px;
+}
+
+.btn form input[type=email] {
+width: 55%;
+padding: 14px ;
+background-color: black;
+border: 1px solid white;
+color: white;
+}
+/* subscribe section end */
+
