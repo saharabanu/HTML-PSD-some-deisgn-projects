@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* common or global style start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0px 120px;
+}
+
+/* button */
+
+
+.global-btn{
+    background-color: transparent;
+    border: 0;
+    padding: 10px 20px;
+    border: 1px solid #15a4fa;
+    color:#fff;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+/* common or global style end*/
+
+
+ /* ------ --------------- ------------------ -------------------- ---------------------- */
+
+ /* header style start */
+header{
+    background-color: #fff;
+    height: 60px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+}
+.header-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+.logo-part{
+    display: flex;
+    align-items: center;
+}
+.logo-part img{
+    width: 30px;
+    padding-right: 10px;
+    
+}
+.logo-part h2{
+    font-weight: bold;
+    
+}
+.menu-part nav ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.menu-part nav ul li a{
+    color:#000;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: 0.4s all;
+}
+.menu-part nav ul li a:hover{
+    color:#858b95;
+    
+}
+/* header style end */
+/* _________ ______ _______ ___________ ___________ ___________ _____________ _________ 
+
+/* banner style start */
+
+.banner{
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80vh
+}
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px;
+}
+.banner-content h1{
+    text-transform: uppercase;
+    font-size: 77px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.hr{
+    background-color: #15a4fa;
+    height: 1px;
+    border: none;
+    margin: 20px 0;
+}
+.banner-content p{
+    
+    color: #fff;
+    padding-bottom:  50px ;
+    
+}
+
+/* banner style end */
+
+
+/* _______ ________________ __________ ______ ______ _______ _______ _____ */
+
+/* simple style start  */
+.simple{
+    background-color: #f6f9f9;
+    
+}
+.simple-content{
+    text-align: center;
+    padding: 30px 0;
+}
+.simple-content h2{
+   color: #474343;
+}
+.simple-content p{
+    color: #908d8d;
+    padding: 10px 0;
+    line-height: 1.7;
+    
+}
+
+/* simple style end */

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.btn{
+    @apply mx-10 my-10 inline-block bg-red-600 text-white text-xl py-3 px-5 rounded hover:bg-red-900 hover:transition-colors focus:ring-4 ring-offset-2 ring-green-700
+}
