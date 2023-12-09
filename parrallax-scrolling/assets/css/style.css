@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow: hidden;
+}
+#home{
+    background-color: rgb(154, 154, 229);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+#home h1{
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+#home img{
+
+    position: absolute;
+    bottom: 0px;
+}
+#img4{
+    position: absolute;
+    margin-bottom: 106px;
+    margin-left: 60px;
+    width: 100%;
+    pointer-events: none;
+}
+#img5{
+    width: 100%;
+    z-index: 3;
+    pointer-events: none;
+}
+#img1,#img2,#img3{
+    top:120px;
+    width:200px
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    position: relative;
+}
+nav a::before{
+    content:"";
+    position: absolute;
+    background-color: #000;
+    width:20%;
+    height: 2.5px;
+    display: unset;
+    bottom: -5px;
+    transition: 0.4s;
+    border-radius: 20px;
+
+}
+nav a:hover::before{
+    
+}
